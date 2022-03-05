@@ -1,0 +1,77 @@
+.parent {
+  height: 100vh;
+  width: 100vw;
+  background-color: hotpink;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 500px;
+  width: 300px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.ant {
+  height: 150px;
+  width: 300px;
+  /* border-radius: 20px; */
+}
+.job {
+  margin-top: 5px;
+}
+.name {
+  font-size: x-large;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.job {
+  font-size: small;
+  color: gray;
+}
+.value {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.score {
+  display: flex;
+  flex-direction: column;
+}
+.num {
+  color: blue;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.click {
+  /* height: 15px; */
+  width: 250px;
+  border-radius: 200px;
+  background: yellow;
+  padding: 8px;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 1px;
+}
+.button {
+  margin-top: 30px;
+  font-size: larger;
+}
+.card p {
+  margin-left: 20px;
+  margin-right: 10px;
+  font-size: large;
+}
+.girl {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  position: absolute;
+  top: 90px;
+  left: 100px;
+}
